@@ -1,0 +1,36 @@
+{
+  "name": "31",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "lint": "tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.0",
+    "clsx": "^2.1.1",
+    "docx": "^9.6.0",
+    "express": "^5.2.1",
+    "file-saver": "^2.0.5",
+    "lucide-react": "^0.575.0",
+    "motion": "^12.34.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.7.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.0",
+    "tsx": "^4.21.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
